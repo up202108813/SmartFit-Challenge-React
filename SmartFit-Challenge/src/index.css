@@ -1,0 +1,57 @@
+  /* Fonts */
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/gotham-light.woff2') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/gotham-book.woff2') format('truetype');
+  font-weight: 500;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/gotham-bold.woff2') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/gotham-black.woff2') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+
+  /* Setup */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  /* Variables */
+  --color-dark-grey: #333333;
+  --color-light-grey: #808080;
+  --color-text-light: #A1A1A1;
+  --color-light-details: #EEEEEE;
+  --color-yellow: #FFB612;
+  --color-red: #dc0a17;
+  --color-green: #2FC022;
+
+  --font-gotham: 'Gotham';
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
